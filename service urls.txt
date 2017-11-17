@@ -1,0 +1,18 @@
+Cuisines APIs
+POST - http://localhost:8080/onlineordering/createcuisine
+GET - http://localhost:8080/onlineordering/getcuisines
+GET - http://localhost:8080/onlineordering/getcuisine/{cuisineId}
+PUT - http://localhost:8080/onlineordering/updateCuisine
+DELETE - http://localhost:8080/onlineordering/deleteCuisine/{cuisineId}
+
+MenuItems APIs
+POST - http://localhost:8080/onlineordering/cuisine/{cuisineId}/updatemenuitem/{menuItemId}
+GET - http://localhost:8080/onlineordering/cuisines/{cuisineId}/getmenuitems
+GET - http://localhost:8080/onlineordering/cuisines/{cuisineId}/getmenuitems/{menuItemId}
+PUT - http://localhost:8080/onlineordering/cuisine/{cuisineId}/updatemenuitem/{menuItemId}
+DELETE - http://localhost:8080/onlineordering/cuisine/{cuisineId}/deletemenuitem/{menuItemId}
+
+
+LittleItaly consumer of OnlineOrdering APIs and wanted to get all Italian Items list ready to use.
+GET - http://localhost:9098/italiancuisines/getmenu
+
